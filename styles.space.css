@@ -1,0 +1,19 @@
+/* space.fedshot911.com 전용 스타일 (기본 틀)
+   styles.v1.1.1.css 위에 덮어쓰거나 추가로 링크해서 사용하세요.
+   나중에 우주 테마(어두운 배경, 별 효과, 색상) 커스터마이징용
+*/
+
+:root {
+  --space-accent: #4a9eff;
+}
+
+/* 예시: mood card 색상 조정용 */
+.mood-card.science { border-color: #4a9eff; }
+.mood-card.fiction { border-color: #a78bfa; }
+.mood-card.missions { border-color: #22d3ee; }
+.mood-card.tools { border-color: #f472b6; }
+
+/* 페이지 hero에 가벼운 우주 느낌 추가 예시 */
+.space-hero {
+  background: linear-gradient(180deg, #0b0d0f 0%, #11151a 100%);
+}
